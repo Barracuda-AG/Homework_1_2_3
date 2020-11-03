@@ -6,16 +6,19 @@ public class Model {
     private int randomNumber;
     private ArrayList<Integer> userNumbers = new ArrayList<>();
 
-    public void setUserNumbers(int number){
+    public void setUserNumbers(int number) {
         userNumbers.add(number);
     }
-    public ArrayList<Integer> getUserNumbers(){
+
+    public ArrayList<Integer> getUserNumbers() {
         return userNumbers;
     }
-    public void setRandomNumber(int randomNumber){
+
+    public void setRandomNumber(int randomNumber) {
         this.randomNumber = randomNumber;
     }
-    public int getRandomNumber(){
+
+    public int getRandomNumber() {
         return randomNumber;
     }
 }
