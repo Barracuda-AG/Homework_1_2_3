@@ -1,3 +1,5 @@
+package Homework_1;
+
 public class Model {
         private String firstValue;
         private String secondValue;

@@ -1,3 +1,5 @@
+package Homework_1;
+
 public class View {
     public static final String HELLO = "Hello";
     public static final String WORLD = "world!";
